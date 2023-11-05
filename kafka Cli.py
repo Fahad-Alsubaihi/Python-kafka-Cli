@@ -5,7 +5,7 @@ import subprocess
 def run_kafka_producer(messages):
     # Command to run the Kafka Avro console producer
     command = [
-        "docker", "exec", "-i", "<container_name>",
+        "docker", "exec", "-i", "kafka-cli",
         "kafka-avro-console-producer",
         "--broker-list", "broker:9093",
         "--topic", "<topic_name>",
@@ -42,7 +42,7 @@ with open('Sample5000CSVFile_556kb.csv', 'r') as file:
 def run_kafka_consumer():
     # Command to run the Kafka Avro console consumer
     command = [
-        "docker", "exec", "-i", "<container_name>",
+        "docker", "exec", "-i", "kafka-cli",
         "kafka-avro-console-consumer",
         "--bootstrap-server", "broker:9093",
         "--topic", "my-topic",
