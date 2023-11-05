@@ -22,4 +22,4 @@ copy the network name and past it in this command after (network=) like this:
 ```
 docker run --rm -it --network=cp-all-in-one_default confluentinc/cp-kafka-connect bash
 ```
-copy the container name and past it into <container name> in python file 
+copy the container name and pest it into <container name> in the Python file 
