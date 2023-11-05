@@ -1,7 +1,19 @@
 # Python-kafka-Cli
 python app to run kafka cli 
-
-
+first create topic with this schema 
+```
+{
+  "type": "record",
+  "name": "ProductRecord",
+  "fields": [
+    {"name": "ID", "type": "int"},
+    {"name": "Product", "type": "string"},
+    {"name": "Customer", "type": "string"},
+    {"name": "Quantity", "type": "int"}
+  ]
+}
+```
+modify the Python code and put your information 
 ## run kafka CLI Container :
 Navigate to the directory where you have saved the Docker Compose file, 
 and run this command to get the network name that we use:
