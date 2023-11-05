@@ -13,7 +13,7 @@ first create topic with this schema
   ]
 }
 ```
-modify the Python code and put your information 
+modify the Python code and put your information in this filed <topic_name> <schema_id>
 ## run kafka CLI Container :
 Navigate to the directory where you have saved the Docker Compose file, 
 and run this command to get the network name that we use:
