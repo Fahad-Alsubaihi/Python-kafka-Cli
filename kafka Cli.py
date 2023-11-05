@@ -8,8 +8,8 @@ def run_kafka_producer(messages):
         "docker", "exec", "-i", "<container_name>",
         "kafka-avro-console-producer",
         "--broker-list", "broker:9093",
-        "--topic", "my-topic",
-        "--property" ,"value.schema.id=58",
+        "--topic", "<topic_name>",
+        "--property" ,"value.schema.id=<schema_id>",
         "--property","schema.registry.url=http://schema-registry:8081"
     ]
 
