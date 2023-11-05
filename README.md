@@ -1,6 +1,5 @@
 # Python-kafka-Cli
-python app to run kafka cli
-
+python app to run kafka cli 
 
 
 ## run kafka CLI Container :
@@ -22,4 +21,5 @@ copy the network name and past it in this command after (network=) like this:
 ```
 docker run --rm -it --network=cp-all-in-one_default confluentinc/cp-kafka-connect bash
 ```
+## After the container run: 
 copy the container name and pest it into <container name> in the Python file 
