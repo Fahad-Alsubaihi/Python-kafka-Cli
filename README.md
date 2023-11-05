@@ -1,5 +1,6 @@
 # Python-kafka-Cli
 python app to run kafka cli 
+# steps:
 first create topic with this schema 
 ```
 {
